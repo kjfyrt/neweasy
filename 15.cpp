@@ -5,7 +5,7 @@ double itc_scir(int radius)
 {
     double pi = 3.14;
     if (radius>0){
-        return radius*pi;
+        return radius*radius*pi;
     }
     return -1;
 }
