@@ -3,10 +3,8 @@
 using namespace std;
 int itc_abs(int num){
     if (num >= 0){
-        cout << num << endl;
+        return num;
     }
-    else {
-        cout << -num << endl;
-    }
-    return num;
+    return -num;
+
 }
