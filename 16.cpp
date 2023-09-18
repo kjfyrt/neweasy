@@ -3,22 +3,25 @@
 using namespace std;
 double itc_pow(int num, int step)
 {
+    int s = num;
     if (step > 0){
         for (int i=1; i<step; i++){
-        num = num*num;
+        num = s*num;
         }
         return num;
     }
-    else if (step = 0){
+    else if (step == 0){
         return 1;
     }
     else if(step < 0){
-        for (int i = 0; i<step; i--){
-        num = num*num;
+        for (int i = -1; i>step; i = i - 1){
+        num = s*num;
         }
-        return 1/num;
+        float d1 = num;
+        float res = 1.0/d1;
+        return res;
     }
-        
-        
-        
+
+
+
 }
