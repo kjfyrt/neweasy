@@ -3,10 +3,7 @@
 using namespace std;
 double itc_fabs(double num){
     if (num >= 0){
-        cout << num << endl;
+        return num;
     }
-    else {
-        cout << -num << endl;
-    }
-    return num;
+    return -num;
 }
