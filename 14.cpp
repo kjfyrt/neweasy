@@ -1,5 +1,5 @@
 #include <iostream>
-#include "jhg.h"
+#include "easy.h"
 using namespace std;
 int itc_sqrt(int num)
 {
